@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="android.edgar.soloinformatica.TerminosBasicosActivity"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" />
+
+    <TextView
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="CONCEPTOS BASICOS DE INFORMATICA"
+        android:id="@+id/textView5" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:id="@+id/scrollView"
+        android:layout_weight="0.78">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="DATO"
+                android:id="@+id/textView6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=" Se define como una cifra, magnitud, relación o hecho que se presenta en la vida cotidiana. El dato no tiene valor por si mismo, su empleo es muy común en le ámbito informático."
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="INFORMACION"
+                android:id="@+id/textView8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Es el conocimiento derivado del análisis de datos; se obtiene al analizar e interpretar los resultados generados mediante la aplicación de diversas técnicas y metodologías sobre los datos recavados con anterioridad."
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="INFORMATICA"
+                android:id="@+id/textView10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Es el campo de estudio que proporciona y define técnicas herramientas y metodologías que se aplica en el proceso de la información. Proviene de la palabra información automática."
+                android:id="@+id/textView11" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="COMPUTACION"
+                android:id="@+id/textView12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Rama de la ciencia que abarca todo lo relacionado con las computadoras, sistemas hardware y software en general."
+                android:id="@+id/textView13" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="SISTEMA"
+                android:id="@+id/textView14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Conjunto de elementos y procedimientos que actúan de manera interrelacionada con un objetivo."
+                android:id="@+id/textView15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="COMPUTADORA"
+                android:id="@+id/textView16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Es una maquina o dispositivo electrónico capas de recibir datos, procesarlos y entregar la información en la manera en que se desea."
+                android:id="@+id/textView17" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="GENERACIONES"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textView18"
+        android:layout_gravity="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:id="@+id/scrollView3">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="HISTORIA"
+                android:id="@+id/textView19" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="La aparición de la Informática se ha debido a la gran demanda de información que tenemos a nuestra disposición y a la dificultad para manejarla personalmente.Un ordenador es una máquina capaz de manipular datos y proporcionar resultados,siguiendo una serie de instrucciones.Debido a los rápidos avances en el mundo de la electrónica,sobre todo a partir de 1946,los ordenadores se clasifican por generaciones.Cada una de estas generaciones se caracteriza por los componentes que forman parte de un ordenador."
+                android:id="@+id/textView20"
+                android:layout_weight="0.29" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="1ra. GENERACION"
+                android:id="@+id/textView21" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Abarca desde 1946 hasta 1957 y se caracteriza porque todos los ordenadores que pertenecen a ella estaban construidos por medio de válvulas electrónicas y tubos de vacío.Estos ordenadores eran de gran tamaño,muy pesados,consumían mucha energía y se averiaban con bastante frecuencia.Los datos les eran proporcionados por medio de fichas o cintas perforadas y se dedicaban,fundamentalmente,al cálculo científico.El lenguaje que se utilizaba para comunicarse con este tipo de ordenadores era lenguaje máquina.El ordenador más conocido fue el ENIAC."
+                android:id="@+id/textView22" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="2da.  GENERACION"
+                android:id="@+id/textView23" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Pertenecen a esta los ordenadores desarrollados desde 1958 a 1964.En estos ordenadores los circuitos estaban hechos de transistores y la memoria de núcleos de ferrita.Este hecho hizo que los ordenadores fueran mucho más pequeños que los construidos hasta ese momento,tuvieran menos consumo y fueran capaces de ejecutar alrededor de 10 millones de operaciones por minuto.Los datos para estos ordenadores eran suministrados por medio de cintas magnéticas y se utilizaba lenguajes simbólicos,tipo FORTRAN y COBOL.Comienzan a utilizarse para tareas administrativas y admiten algo de trabajo en cadena.El primer ordenador de esta generación fue el TRADIC de los Laboratorios Bell."
+                android:id="@+id/textView24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="3ra. GENERACION"
+                android:id="@+id/textView25" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Se incluyen aquí los ordenadores que aparecieron entre 1965 y 1971.Estos contienen circuitos integrados o chips y dieron lugar a la microelectrónica,es decir,el desarrollo de componentes electrónicos de tamaño microcópico.Con esa nueva tecnología,la velocidad de los ordenadores llegó a ser de alrededor de 100 millones de operaciones por segundo,y se consiguió un menor tamaño en los mismos.Los avances de esta tercera generación dan paso al multiproceso,es decir a la capacidad de realizar varios procesos a la vez; y a los lenguajes de programación."
+                android:id="@+id/textView26" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
